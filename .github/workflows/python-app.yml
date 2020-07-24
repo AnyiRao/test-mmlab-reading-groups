@@ -23,3 +23,6 @@ jobs:
     - name: Install dependencies
       run: |
         python run.py
+        TODAY=$
+        git commit -a -m "automatic commit at: $(date)"
+        git push

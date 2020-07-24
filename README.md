@@ -1,1 +1,1 @@
-# test-mmlab-reading-groups
+test script

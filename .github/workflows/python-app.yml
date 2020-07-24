@@ -23,6 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python run.py
-        TODAY=$
+        git config user.email "pengzh@ie.cuhk.edu.hk"
+        git config user.name "pengzhenghao"
         git commit -a -m "automatic commit at: $(date)"
         git push

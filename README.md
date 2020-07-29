@@ -23,4 +23,5 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 * [Generative Modeling](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Generative%20Modeling)
 * [Reinforcement Learning](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning)
     * [Test Folder](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder)
+        * [Test Folder 2](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder/Test%20Folder%202)
 * [Visual Recognition](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Visual%20Recognition)

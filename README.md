@@ -24,7 +24,4 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 * [Reinforcement Learning](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning)
     * [Test Folder](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder)
         * [Test Folder 2](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder/Test%20Folder%202)
-    * [Worst Cases Policy Gradients](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Worst%20Cases%20Policy%20Gradients)
-    * [Worst Cases Policy Gradients ](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Worst%20Cases%20Policy%20Gradients%20)
-        * [Worst Cases Policy Gradients a6790e03d8194ee197326a0fb81c67ff](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Worst%20Cases%20Policy%20Gradients%20/Worst%20Cases%20Policy%20Gradients%20a6790e03d8194ee197326a0fb81c67ff)
 * [Visual Recognition](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Visual%20Recognition)

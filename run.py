@@ -74,7 +74,7 @@ def parse_existing(file_name):
             detected = True
             break
     assert detected, "The divider line is deleted!"
-    return existing_lines
+    return existing_lines, len(lines)
 
 
 def main():
@@ -86,7 +86,7 @@ def main():
 
     # Read the headers of the file
     file_name = "README.md"
-    existing_lines = parse_existing(file_name)
+    existing_lines, old_lines = parse_existing(file_name)
 
     # Write lines to file
     write_lines = existing_lines + new_lines
@@ -94,17 +94,9 @@ def main():
         f.writelines(write_lines)
 
     print("Finished writing files! Previous number of lines {}, now {}.".format(
-        len(lines), len(write_lines)
+        old_lines, len(write_lines)
     ))
 
 
 if __name__ == '__main__':
-    # main()
-    print("===")
-    ret = listdir(".")
-    print("===")
-    lines = parse_folders(ret)
-    for l in lines:
-        print(l)
-    print("===")
     main()

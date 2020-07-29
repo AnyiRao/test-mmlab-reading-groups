@@ -20,6 +20,3 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 ## Table of Contents
 
 <!--DIVIDER_DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE-->
-* [Generative Modeling](#)
-* [Reinforcement Learning](#)
-* [Visual Recognition](#)

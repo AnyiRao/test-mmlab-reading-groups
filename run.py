@@ -1,11 +1,17 @@
 import os
 import sys
+from urllib.parse import quote
 
 print(sys.executable)
 print(os.path.abspath("."))
 
 INDENT = "    "
 MAX_LINE_WIDTH = 300
+ROOT = "https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/"
+
+
+def get_url(string, top_url=None):
+    return os.path.join(top_url or ROOT, quote(string))
 
 
 def listdir(path):
@@ -22,7 +28,7 @@ def listdir(path):
     return ret
 
 
-def _parse_folders(folders):
+def _parse_folders(folders, url):
     lines = []
 
     folders = {k: folders[k] for k in sorted(folders.keys())}
@@ -30,9 +36,10 @@ def _parse_folders(folders):
         return []
 
     for k, v in folders.items():
-        l = "* [{}](#)".format(k)
+        current_url = get_url(k, url)
+        l = "* [{}]({})".format(k, current_url)
 
-        sub_folder_lines = _parse_folders(v)
+        sub_folder_lines = _parse_folders(v, current_url)
         sub_folder_lines = [INDENT + l for l in sub_folder_lines]
 
         lines.append(l)
@@ -42,7 +49,7 @@ def _parse_folders(folders):
 
 
 def parse_folders(folders):
-    new_lines = _parse_folders(folders)
+    new_lines = _parse_folders(folders, url=None)
     new_lines = [l[:MAX_LINE_WIDTH] + "\n" for l in new_lines]
     return new_lines
 

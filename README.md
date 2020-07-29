@@ -1,6 +1,6 @@
 # Knowledge Base of Bolei's Group
 
-:camera_flash: [Generative Modeling](#) | :robot: [Reinforcement Learning](#) | :eye: [Visual Recognition](#)
+:camera_flash: [Generative Modeling](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Generative%20Modeling) | :robot: [Reinforcement Learning](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning) | :eye: [Visual Recognition](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Visual%20Recognition)
 
 
 ## Quick Start
@@ -20,3 +20,7 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 ## Table of Contents
 
 <!--DIVIDER_DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE-->
+* [Generative Modeling](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Generative%20Modeling)
+* [Reinforcement Learning](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning)
+    * [Test Folder](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder)
+* [Visual Recognition](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Visual%20Recognition)

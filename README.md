@@ -2,7 +2,6 @@
 
 :camera_flash: [Generative Modeling](#) | :robot: [Reinforcement Learning](#) | :eye: [Visual Recognition](#)
 
-* 300 Characters per line (including blank)
 
 ## Quick Start
 
@@ -21,6 +20,3 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 ## Table of Contents
 
 <!--DIVIDER_DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE-->
-* [Generative Modeling](#)
-* [Reinforcement Learning](#)
-* [Visual Recognition](#)

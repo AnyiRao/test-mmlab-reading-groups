@@ -16,13 +16,21 @@ def get_url(string, top_url=None):
 
 def listdir(path):
     ret = dict()
+
+    if not any(p == "README.md" for p in os.listdir(path)):
+        return None
+
     for p in os.listdir(path):
         if p.startswith("."):
             continue
         abs_path = os.path.join(path, p)
         if os.path.isdir(abs_path):
             print(abs_path)
-            ret[p] = listdir(abs_path)
+            sub_folders = listdir(abs_path)
+            if sub_folders is None:
+                pass
+            else:
+                ret[p] = sub_folders
         else:
             continue
     return ret
@@ -31,9 +39,10 @@ def listdir(path):
 def _parse_folders(folders, url):
     lines = []
 
-    folders = {k: folders[k] for k in sorted(folders.keys())}
     if not folders:
         return []
+
+    folders = {k: folders[k] for k in sorted(folders.keys())}
 
     for k, v in folders.items():
         current_url = get_url(k, url)

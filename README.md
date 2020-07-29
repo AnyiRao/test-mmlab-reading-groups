@@ -17,6 +17,8 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
 
 :pencil:  CI system will automatically generate the table of contents in this page as long as you have make a new commit via the website.
 
+:ballot_box_with_check:  Folders without `README.md` would not be shown in ToC.
+
 :warning:  Please avoid having extra spaces (` `) at the end of your folder's name! This would mess up Github uploading system.
 
 
@@ -29,5 +31,4 @@ Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who
     * [Test Folder](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder)
         * [Test Folder 2](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Test%20Folder/Test%20Folder%202)
     * [Worst Cases Policy Gradients](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Worst%20Cases%20Policy%20Gradients)
-        * [Worst Cases Policy Gradients a6790e03d8194ee197326a0fb81c67ff](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Reinforcement%20Learning/Worst%20Cases%20Policy%20Gradients/Worst%20Cases%20Policy%20Gradients%20a6790e03d8194ee197326a0fb81c67ff)
 * [Visual Recognition](https://github.com/pengzhenghao/test-mmlab-reading-groups/tree/master/Visual%20Recognition)

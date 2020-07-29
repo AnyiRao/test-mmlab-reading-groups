@@ -7,13 +7,17 @@
 
 Hi there! Welecome to the knowledge base of Bolei's Group. For a contributor who wish to construct this base together, please follow these principles:
 
+
+
 :desktop_computer:  Do everything at Github website. You don't have to create a PR, a simple online commit is OK.
 
-:notebook_with_decorative_cover: Please write a `README.md` file as the main page of your materials.
+:notebook_with_decorative_cover:  Write a `README.md` file as the main page of your materials.
 
-:up: Upload your materials via a self-contained folder, including figs, paper link and so on. Please make sure the figures in your markdown files have correct links.
+:up:  Upload your materials via a self-contained folder, including figs, paper link and so on. Please make sure the figures in your markdown files have correct links.
 
-:pencil: CI system will automatically generate the table of contents in this page as long as you have make a new commit via the website.
+:pencil:  CI system will automatically generate the table of contents in this page as long as you have make a new commit via the website.
+
+:warning:  Please avoid having extra spaces (` `) at the end of your folder's name! This would mess up Github uploading system.
 
 
 
